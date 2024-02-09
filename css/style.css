@@ -1,0 +1,187 @@
+/* Глобальні стилі */
+
+/* 
+За замовчуванням від браузера - це ми скидаємо 
+
+font-weight: 400. --> вага шрифту абзаців
+font-weight= 700. --> вага шрифту заголовків 
+*/
+
+/* Основий вміст */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+/* Заголовки */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', sans-serif;
+  color: #2e2f42;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+/* Скидання стилів від браузера за замочуванням */
+
+/* визначає тип маркера списку. Щоб прибрати відображення маркера */
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+/* Посилання */
+
+.link {
+  text-decoration: none;
+}
+
+/* Header */
+
+span {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.header-logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+
+.navigation-link {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+  color: #404bbf;
+}
+
+.adress-link {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.adress-link:hover,
+.adress-link:focus {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #404bbf;
+}
+
+/* Main */
+
+/* section hero --> 1 */
+
+.hero {
+  background-color: #2e2f42;
+}
+
+.hero-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+
+/* section benefits  --> 2 */
+
+.benefits {
+  background-color: #ffffff;
+}
+
+.benefits-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* section team --> 3 */
+
+.team {
+  background-color: #f4f4fd;
+}
+
+/* section footer --> 4 */
+
+.page-footer {
+  background: #2e2f42;
+}
+
+.footer-link {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+
+.footer-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
